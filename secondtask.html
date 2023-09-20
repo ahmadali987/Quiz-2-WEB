@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var eng   = 85;
+    var engcr = 3 ;
+    var pp    = 75;
+    var ppcr  = 3 ;
+    var web   = 87;
+    var webcr = 4 ;
+    var isl   = 87;
+    var islcr = 2 ;
+    var itpm  = 79;
+    var itpmcr= 3 ;
+    var gradingpoint=0, result=0;
+
+    if(eng<=100 && eng>=85) {
+        gradingpoint = gradingpoint + (engcr * 4);
+    }
+
+    else if(eng<85 && eng>=80) {
+        gradingpoint = gradingpoint + (engcr * 3.67);
+    }
+
+    else if(eng<80 && eng>=75){
+        gradingpoint = gradingpoint + (engcr * 3.33);
+    }
+
+    else if(eng<75 && eng>=70){
+        gradingpoint = gradingpoint + (engcr * 3);
+    }
+
+    else if(eng<70 && eng>=60){
+        gradingpoint = gradingpoint + (engcr * 2.67);
+    }
+
+    else if(eng<60 && eng>=50){
+        gradingpoint = gradingpoint + (engcr * 2.03);
+    }
+
+    else if(eng<50 ){
+        gradingpoint = gradingpoint + (engcr * 2);
+    }
+
+    // SECOND SUBJECT
+
+    if(pp<=100 && pp>=85) {
+        gradingpoint = gradingpoint + (ppcr * 4);
+    }
+
+    else if(pp<85 && pp>=80) {
+        gradingpoint = gradingpoint + (ppcr * 3.67);
+    }
+
+    else if(pp<80 && pp>=75){
+        gradingpoint = gradingpoint + (ppcr * 3.33);
+    }
+
+    else if(pp<75 && pp>=70){
+        gradingpoint = gradingpoint + (ppcr * 3);
+    }
+
+    else if(pp<70 && pp>=60){
+        gradingpoint = gradingpoint + (ppcr * 2.67);
+    }
+
+    else if(pp<60 && pp>=50){
+        gradingpoint = gradingpoint + (ppcr * 2.03);
+    }
+
+    else if(pp<50 ){
+        gradingpoint = gradingpoint + (ppcr * 2);
+    }
+
+    // Third Subject
+
+    if(itpm<=100 && itpm>=85) {
+        gradingpoint = gradingpoint + (itpmcr * 4);
+    }
+
+    else if(itpm<85 && itpm>=80) {
+        gradingpoint = gradingpoint + (itpmcr * 3.67);
+    }
+
+    else if(itpm<80 && itpm>=75){
+        gradingpoint = gradingpoint + (itpmcr * 3.33);
+    }
+
+    else if(itpm<75 && itpm>=70){
+        gradingpoint = gradingpoint + (itpmcr * 3);
+    }
+
+    else if(itpm<70 && itpm>=60){
+        gradingpoint = gradingpoint + (itpmcr * 2.67);
+    }
+
+    else if(itpm<60 && itpm>=50){
+        gradingpoint = gradingpoint + (itpmcr * 2.03);
+    }
+
+    else if(itpm<50 ){
+        gradingpoint = gradingpoint + (itpmcr * 2);
+    }
+
+    // FOURTH SUBJECT
+
+    if(isl<=100 && isl>=85) {
+        gradingpoint = gradingpoint + (islcr * 4);
+    }
+
+    else if(isl<85 && isl>=80) {
+        gradingpoint = gradingpoint + (islcr * 3.67);
+    }
+
+    else if(isl<80 && isl>=75){
+        gradingpoint = gradingpoint + (islcr * 3.33);
+    }
+
+    else if(isl<75 && isl>=70){
+        gradingpoint = gradingpoint + (islcr * 3);
+    }
+
+    else if(isl<70 && isl>=60){
+        gradingpoint = gradingpoint + (islcr * 2.67);
+    }
+
+    else if(isl<60 && isl>=50){
+        gradingpoint = gradingpoint + (islcr * 2.03);
+    }
+
+    else if(isl<50 ){
+        gradingpoint = gradingpoint + (islcr * 2);
+    }
+
+    // FIFTH SUBJECT
+    
+    if(web<=100 && web>=85) {
+        gradingpoint = gradingpoint + (webcr * 4);
+    }
+
+    else if(web<85 && web>=80) {
+        gradingpoint = gradingpoint + (webcr * 3.67);
+    }
+
+    else if(web<80 && web>=75){
+        gradingpoint = gradingpoint + (webcr * 3.33);
+    }
+
+    else if(web<75 && web>=70){
+        gradingpoint = gradingpoint + (webcr * 3);
+    }
+
+    else if(web<70 && web>=60){
+        gradingpoint = gradingpoint + (webcr * 2.67);
+    }
+
+    else if(web<60 && web>=50){
+        gradingpoint = gradingpoint + (web * 2.03);
+    }
+
+    else if(web<50 ){
+        gradingpoint = gradingpoint + (webcr * 2);
+    }
+    
+    result= result+(gradingpoint/15);
+    document.write(result);
+    </script>
+     
+</body>
+</html>
